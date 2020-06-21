@@ -10,11 +10,11 @@ Boilerplate framework for the WebDriverIO with CucumberJS
 In the terminal, perform `npm run scriptRun` to start the script execution
 
 ### Folder structure
-config - This folder contains `wdio.config.js`.
-features - This folder contains all `.feature` files.
-stepDefinitions - This folder contains the required implementation files in the form of `given.js`, `when.js`, and `then.js`.
-support - This folder is present under `stepDefinitions` file and it contains the required support for `given.js`, `when.js`, and `then.js` files
-reports - This folder contains `index.html` for the generated reports.
+- config - This folder contains `wdio.config.js`.
+- features - This folder contains all `.feature` files.
+- stepDefinitions - This folder contains the required implementation files in the form of `given.js`, `when.js`, and `then.js`.
+- support - This folder is present under `stepDefinitions` file and it contains the required support for `given.js`, `when.js`, and `then.js` files
+- reports - This folder contains `index.html` for the generated reports.
 
 ### Reports used
 `multiple-cucumber-html-reporter`
