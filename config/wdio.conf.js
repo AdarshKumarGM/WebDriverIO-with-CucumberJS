@@ -16,6 +16,7 @@ exports.config = {
   capabilities: [{
     maxInstances: 5,
     browserName: '', // Provide browser name on which you are going to test
+    // Choose the options for the browser being used, if mozilla, it is "moz:...", choose args for your requirements
     'goog:chromeOptions': {
       args: ['--start-maximized']
     },
